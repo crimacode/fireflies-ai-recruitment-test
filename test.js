@@ -1,4 +1,7 @@
-const data = require('./test.json');
+const test1 = require("./test1-asr1-gmeet-speakers6.json");
+const test2 = require("./test2-asr2-msteams-speakers2.json");
+const test3 = require("./test3-asr2-zoompwa-speakers1.json");
+const test4 = require("./test4-as2-gmeet-speakers2.json");
 
 const startTime = process.hrtime();
 
@@ -46,7 +49,7 @@ function createMergedTranscription(speakerJson, transcription) {
         for (let speaker of speakerJson) {
           const current_diff_time = Math.abs(speaker.time - transcript.time);
           const current_diff_endTime = Math.abs(
-            speaker.endTime - transcript.endTime,
+            speaker.endTime - transcript.endTime
           );
           if (
             current_diff_time <= diff_time &&
@@ -73,17 +76,61 @@ function createMergedTranscription(speakerJson, transcription) {
   return mergedCaptions;
 }
 
-const info = createMergedTranscription(
-  data.input.botSpeakers,
-  data.input.asrTranscription,
+function compareTwoObjects(newData, oldData) {
+  // Compare New Data with Old Data
+  let testPassage = true;
+  if (newData.length === oldData.length) {
+    for (let i = 0; i < newData.length; i++) {
+      const oldElement = oldData[i];
+      const newElement = newData[i];
+      if (
+        oldElement.speaker_id !== newElement.speaker_id ||
+        oldElement.speaker_name !== newElement.speaker_name
+      ) {
+        testPassage = false;
+      }
+    }
+  } else {
+    console.log(
+      "Cannot Iterate through 2 array objects simultaneously when they are of different size"
+    );
+  }
+  return testPassage;
+}
+
+const test1New = createMergedTranscription(
+  test1.input.botSpeakers,
+  test1.input.asrTranscription
 );
-console.log(info);
+const test1Old = test1.output.mergedCaptions;
+console.log("Test 1 has pass:", compareTwoObjects(test1New, test1Old));
+
+const test2New = createMergedTranscription(
+  test2.input.botSpeakers,
+  test2.input.asrTranscription
+);
+const test2Old = test2.output.mergedCaptions;
+console.log("Test 2 has pass:", compareTwoObjects(test2New, test2Old));
+
+const test3New = createMergedTranscription(
+  test3.input.botSpeakers,
+  test3.input.asrTranscription
+);
+const test3Old = test3.output.mergedCaptions;
+console.log("Test 3 has pass:", compareTwoObjects(test3New, test3Old));
+
+const test4New = createMergedTranscription(
+  test4.input.botSpeakers,
+  test4.input.asrTranscription
+);
+const test4Old = test4.output.mergedCaptions;
+console.log("Test 4 has pass:", compareTwoObjects(test4New, test4Old));
 
 const endTime = process.hrtime(startTime);
 console.log(
-  'Time taken:',
+  "Time taken:",
   endTime[0] * 1000 + endTime[1] / 1000000,
-  'milliseconds',
+  "milliseconds"
 );
 
 const usedMemory = process.memoryUsage();
@@ -93,4 +140,4 @@ const memoryInMB = {
   heapUsed: (usedMemory.heapUsed / 1024 / 1024).toFixed(2), // Heap Used
 };
 
-console.log('Memory usage in MB:', memoryInMB);
+console.log("Memory usage in MB:", memoryInMB);

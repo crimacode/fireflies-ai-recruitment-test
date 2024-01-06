@@ -1,0 +1,412 @@
+{
+  "input": {
+    "botSpeakers": [
+      {
+        "speakerName": "Lucas Bueno",
+        "timestamp": 1657136398186,
+        "endTime": "222.2",
+        "time": "1.2"
+      }
+    ],
+    "asrTranscription": [
+      {
+        "sentence": "When people don't love and I'm using the word, love, love buildings.",
+        "speaker_id": 0,
+        "time": 0.49,
+        "endTime": 5.74,
+        "speaker": 0,
+        "averageConfidence": 0.9958333333333335
+      },
+      {
+        "sentence": "They're more likely to demolish them.",
+        "speaker_id": 0,
+        "time": 6.29,
+        "endTime": 8.22,
+        "speaker": 0,
+        "averageConfidence": 0.9933333333333333
+      },
+      {
+        "sentence": "I feel those two dots haven't been connected together, but when you make a building, one of the most expensive things you can possibly do, there are understandably huge pressures of cost of time of politics and egos and regulations.",
+        "speaker_id": 0,
+        "time": 9.46,
+        "endTime": 27.97,
+        "speaker": 0,
+        "averageConfidence": 0.9959999999999999
+      },
+      {
+        "sentence": "And the status quo.",
+        "speaker_id": 0,
+        "time": 28.19,
+        "endTime": 29.29,
+        "speaker": 0,
+        "averageConfidence": 0.9475
+      },
+      {
+        "sentence": "These forces of soullessness are immense and change is scary for everybody, myself included, but I'm convinced that emotion is the crucial function that's been forgotten.",
+        "speaker_id": 0,
+        "time": 30.99,
+        "endTime": 48.63,
+        "speaker": 0,
+        "averageConfidence": 0.9803846153846153
+      },
+      {
+        "sentence": "There are however, a tiny handful of people who do understand and are trying to address this.",
+        "speaker_id": 0,
+        "time": 50.51,
+        "endTime": 56.3,
+        "speaker": 0,
+        "averageConfidence": 0.9852941176470589
+      },
+      {
+        "sentence": "Here's a few of them in France, SU Fujimoto has designed this amazingly textured apartment building in Bekin Faso.",
+        "speaker_id": 0,
+        "time": 57.12,
+        "endTime": 68.22,
+        "speaker": 0,
+        "averageConfidence": 0.9363157894736843
+      },
+      {
+        "sentence": "France's carer has made this soulful health center in Lebanon.",
+        "speaker_id": 0,
+        "time": 69.1,
+        "endTime": 74.34,
+        "speaker": 0,
+        "averageConfidence": 0.9490000000000001
+      },
+      {
+        "sentence": "Lena Gottner architecture has been using splendidly thick walls to make character full housing.",
+        "speaker_id": 0,
+        "time": 75.33,
+        "endTime": 82.17,
+        "speaker": 0,
+        "averageConfidence": 0.9264285714285715
+      },
+      {
+        "sentence": "And in the UK Acme studio have been bringing personality and detail to city center buildings.",
+        "speaker_id": 0,
+        "time": 83.39,
+        "endTime": 91.21,
+        "speaker": 0,
+        "averageConfidence": 0.9443749999999999
+      },
+      {
+        "sentence": "I thought I'd now show you a few examples of ways.",
+        "speaker_id": 0,
+        "time": 93.38,
+        "endTime": 96.7,
+        "speaker": 0,
+        "averageConfidence": 0.990909090909091
+      },
+      {
+        "sentence": "My own studio has been trying to address this too.",
+        "speaker_id": 0,
+        "time": 96.87,
+        "endTime": 99.65,
+        "speaker": 0,
+        "averageConfidence": 0.986
+      },
+      {
+        "sentence": "In Cape town, there was a huge century old disused grain silo that was once used for storing maze from throughout South Africa.",
+        "speaker_id": 0,
+        "time": 100.87,
+        "endTime": 111.33,
+        "speaker": 0,
+        "averageConfidence": 0.9686363636363636
+      },
+      {
+        "sentence": "That was at significant risk of being demolished.",
+        "speaker_id": 0,
+        "time": 111.64,
+        "endTime": 114.37,
+        "speaker": 0,
+        "averageConfidence": 0.9412499999999999
+      },
+      {
+        "sentence": "We proposed to not knock it down, but instead turned it into Africa's first major institution for contemporary African artists.",
+        "speaker_id": 0,
+        "time": 115.62,
+        "endTime": 124.47,
+        "speaker": 0,
+        "averageConfidence": 0.9824999999999999
+      },
+      {
+        "sentence": "We, you haven't seen it yet.",
+        "speaker_id": 0,
+        "time": 126.49,
+        "endTime": 128.95,
+        "speaker": 0,
+        "averageConfidence": 0.89
+      },
+      {
+        "sentence": "We, we took one of the original grain.",
+        "speaker_id": 0,
+        "time": 132.01,
+        "endTime": 135.14,
+        "speaker": 0,
+        "averageConfidence": 0.9175000000000001
+      },
+      {
+        "sentence": "You might get disappointed.",
+        "speaker_id": 0,
+        "time": 135.36,
+        "endTime": 136.26,
+        "speaker": 0,
+        "averageConfidence": 0.99
+      },
+      {
+        "sentence": "Now we took, we took one of the original grains of corn that had been stored in the original building, and we cut it out of the heart of that building.",
+        "speaker_id": 0,
+        "time": 136.4,
+        "endTime": 146.53,
+        "speaker": 0,
+        "averageConfidence": 0.9738709677419354
+      },
+      {
+        "sentence": "And around that put 80 galleries.",
+        "speaker_id": 0,
+        "time": 148.19,
+        "endTime": 150.17,
+        "speaker": 0,
+        "averageConfidence": 0.9950000000000001
+      },
+      {
+        "sentence": "And most of our work was about restoring and reinvigorating a historical structure.",
+        "speaker_id": 0,
+        "time": 152.53,
+        "endTime": 157.9,
+        "speaker": 0,
+        "averageConfidence": 0.9492307692307692
+      },
+      {
+        "sentence": "Central part of our vision was using our limited budget to create the most compelling hearts with those gigantic.",
+        "speaker_id": 0,
+        "time": 160.06,
+        "endTime": 169.31,
+        "speaker": 0,
+        "averageConfidence": 0.8384210526315791
+      },
+      {
+        "sentence": "And the key thing was how we could make people not just stand at the outside and a structure, but how we could pull them into the inside.",
+        "speaker_id": 0,
+        "time": 179.28,
+        "endTime": 189.54,
+        "speaker": 0,
+        "averageConfidence": 0.9014285714285715
+      }
+    ]
+  },
+  "output": {
+    "mergedCaptions": [
+      {
+        "sentence": "When people don't love and I'm using the word, love, love buildings.",
+        "speaker_id": 0,
+        "time": 0.49,
+        "endTime": 5.74,
+        "speaker": 0,
+        "averageConfidence": 0.9958333333333335,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "They're more likely to demolish them.",
+        "speaker_id": 0,
+        "time": 6.29,
+        "endTime": 8.22,
+        "speaker": 0,
+        "averageConfidence": 0.9933333333333333,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "I feel those two dots haven't been connected together, but when you make a building, one of the most expensive things you can possibly do, there are understandably huge pressures of cost of time of politics and egos and regulations.",
+        "speaker_id": 0,
+        "time": 9.46,
+        "endTime": 27.97,
+        "speaker": 0,
+        "averageConfidence": 0.9959999999999999,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "And the status quo.",
+        "speaker_id": 0,
+        "time": 28.19,
+        "endTime": 29.29,
+        "speaker": 0,
+        "averageConfidence": 0.9475,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "These forces of soullessness are immense and change is scary for everybody, myself included, but I'm convinced that emotion is the crucial function that's been forgotten.",
+        "speaker_id": 0,
+        "time": 30.99,
+        "endTime": 48.63,
+        "speaker": 0,
+        "averageConfidence": 0.9803846153846153,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "There are however, a tiny handful of people who do understand and are trying to address this.",
+        "speaker_id": 0,
+        "time": 50.51,
+        "endTime": 56.3,
+        "speaker": 0,
+        "averageConfidence": 0.9852941176470589,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "Here's a few of them in France, SU Fujimoto has designed this amazingly textured apartment building in Bekin Faso.",
+        "speaker_id": 0,
+        "time": 57.12,
+        "endTime": 68.22,
+        "speaker": 0,
+        "averageConfidence": 0.9363157894736843,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "France's carer has made this soulful health center in Lebanon.",
+        "speaker_id": 0,
+        "time": 69.1,
+        "endTime": 74.34,
+        "speaker": 0,
+        "averageConfidence": 0.9490000000000001,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "Lena Gottner architecture has been using splendidly thick walls to make character full housing.",
+        "speaker_id": 0,
+        "time": 75.33,
+        "endTime": 82.17,
+        "speaker": 0,
+        "averageConfidence": 0.9264285714285715,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "And in the UK Acme studio have been bringing personality and detail to city center buildings.",
+        "speaker_id": 0,
+        "time": 83.39,
+        "endTime": 91.21,
+        "speaker": 0,
+        "averageConfidence": 0.9443749999999999,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "I thought I'd now show you a few examples of ways.",
+        "speaker_id": 0,
+        "time": 93.38,
+        "endTime": 96.7,
+        "speaker": 0,
+        "averageConfidence": 0.990909090909091,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "My own studio has been trying to address this too.",
+        "speaker_id": 0,
+        "time": 96.87,
+        "endTime": 99.65,
+        "speaker": 0,
+        "averageConfidence": 0.986,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "In Cape town, there was a huge century old disused grain silo that was once used for storing maze from throughout South Africa.",
+        "speaker_id": 0,
+        "time": 100.87,
+        "endTime": 111.33,
+        "speaker": 0,
+        "averageConfidence": 0.9686363636363636,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "That was at significant risk of being demolished.",
+        "speaker_id": 0,
+        "time": 111.64,
+        "endTime": 114.37,
+        "speaker": 0,
+        "averageConfidence": 0.9412499999999999,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "We proposed to not knock it down, but instead turned it into Africa's first major institution for contemporary African artists.",
+        "speaker_id": 0,
+        "time": 115.62,
+        "endTime": 124.47,
+        "speaker": 0,
+        "averageConfidence": 0.9824999999999999,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "We, you haven't seen it yet.",
+        "speaker_id": 0,
+        "time": 126.49,
+        "endTime": 128.95,
+        "speaker": 0,
+        "averageConfidence": 0.89,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "We, we took one of the original grain.",
+        "speaker_id": 0,
+        "time": 132.01,
+        "endTime": 135.14,
+        "speaker": 0,
+        "averageConfidence": 0.9175000000000001,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "You might get disappointed.",
+        "speaker_id": 0,
+        "time": 135.36,
+        "endTime": 136.26,
+        "speaker": 0,
+        "averageConfidence": 0.99,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "Now we took, we took one of the original grains of corn that had been stored in the original building, and we cut it out of the heart of that building.",
+        "speaker_id": 0,
+        "time": 136.4,
+        "endTime": 146.53,
+        "speaker": 0,
+        "averageConfidence": 0.9738709677419354,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "And around that put 80 galleries.",
+        "speaker_id": 0,
+        "time": 148.19,
+        "endTime": 150.17,
+        "speaker": 0,
+        "averageConfidence": 0.9950000000000001,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "And most of our work was about restoring and reinvigorating a historical structure.",
+        "speaker_id": 0,
+        "time": 152.53,
+        "endTime": 157.9,
+        "speaker": 0,
+        "averageConfidence": 0.9492307692307692,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "Central part of our vision was using our limited budget to create the most compelling hearts with those gigantic.",
+        "speaker_id": 0,
+        "time": 160.06,
+        "endTime": 169.31,
+        "speaker": 0,
+        "averageConfidence": 0.8384210526315791,
+        "speaker_name": "Lucas Bueno"
+      },
+      {
+        "sentence": "And the key thing was how we could make people not just stand at the outside and a structure, but how we could pull them into the inside.",
+        "speaker_id": 0,
+        "time": 179.28,
+        "endTime": 189.54,
+        "speaker": 0,
+        "averageConfidence": 0.9014285714285715,
+        "speaker_name": "Lucas Bueno"
+      }
+    ],
+    "speakerMeta": {
+      "1": "Lucas Bueno"
+    }
+  }
+}
