@@ -88,6 +88,7 @@ function compareTwoObjects(newData, oldData) {
         oldElement.speaker_name !== newElement.speaker_name
       ) {
         testPassage = false;
+        break;
       }
     }
   } else {
