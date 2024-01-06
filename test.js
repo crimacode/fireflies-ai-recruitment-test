@@ -79,6 +79,7 @@ function createMergedTranscription(speakerJson, transcription) {
 function compareTwoObjects(newData, oldData) {
   // Compare New Data with Old Data
   let testPassage = true;
+  let countMatch = 0;
   if (newData.length === oldData.length) {
     for (let i = 0; i < newData.length; i++) {
       const oldElement = oldData[i];
@@ -88,7 +89,8 @@ function compareTwoObjects(newData, oldData) {
         oldElement.speaker_name !== newElement.speaker_name
       ) {
         testPassage = false;
-        break;
+      } else {
+        countMatch++;
       }
     }
   } else {
@@ -96,7 +98,7 @@ function compareTwoObjects(newData, oldData) {
       "Cannot Iterate through 2 array objects simultaneously when they are of different size"
     );
   }
-  return testPassage;
+  return { testPassage, percentageMatch: (countMatch / newData.length) * 100 };
 }
 
 const test1New = createMergedTranscription(
@@ -104,28 +106,32 @@ const test1New = createMergedTranscription(
   test1.input.asrTranscription
 );
 const test1Old = test1.output.mergedCaptions;
-console.log("Test 1 has pass:", compareTwoObjects(test1New, test1Old));
+const test1Result = compareTwoObjects(test1New, test1Old);
+console.log("Test 1 -> % of speaker labels that match shared meetings:", test1Result.percentageMatch + "%");
 
 const test2New = createMergedTranscription(
   test2.input.botSpeakers,
   test2.input.asrTranscription
 );
 const test2Old = test2.output.mergedCaptions;
-console.log("Test 2 has pass:", compareTwoObjects(test2New, test2Old));
+const test2Result = compareTwoObjects(test2New, test2Old);
+console.log("Test 2 -> % of speaker labels that match shared meetings:", test2Result.percentageMatch + "%");
 
 const test3New = createMergedTranscription(
   test3.input.botSpeakers,
   test3.input.asrTranscription
 );
 const test3Old = test3.output.mergedCaptions;
-console.log("Test 3 has pass:", compareTwoObjects(test3New, test3Old));
+const test3Result = compareTwoObjects(test3New, test3Old);
+console.log("Test 3 -> % of speaker labels that match shared meetings:", test3Result.percentageMatch + "%");
 
 const test4New = createMergedTranscription(
   test4.input.botSpeakers,
   test4.input.asrTranscription
 );
 const test4Old = test4.output.mergedCaptions;
-console.log("Test 4 has pass:", compareTwoObjects(test4New, test4Old));
+const test4Result = compareTwoObjects(test4New, test4Old);
+console.log("Test 4 -> % of speaker labels that match shared meetings:", test4Result.percentageMatch + "%");
 
 const endTime = process.hrtime(startTime);
 console.log(

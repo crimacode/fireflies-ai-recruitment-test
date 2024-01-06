@@ -38,19 +38,19 @@ The output of the tests will be displayed in the terminal:
       '6': 'Thadeu Tucci',
       '7': 'Raghavendra Gautam'
     }
-    Test 1 has pass: true
+    Test 1 -> % of speaker labels that match shared meetings: 100%
     ```
 
 - Test 2:
     ```json
     { '1': 'Sanju Laitonjam', '2': 'Sai Girish ' }
-    Test 2 has pass: true
+    Test 2 -> % of speaker labels that match shared meetings: 100%
     ```
 
 - Test 3:
     ```json
     { '1': 'Lucas Bueno' }
-    Test 3 has pass: true
+    Test 3 -> % of speaker labels that match shared meetings: 100%
     ```
 
 - Test 4:
@@ -61,7 +61,7 @@ The output of the tests will be displayed in the terminal:
       '3': 'Krish Ramineni',
       '4': 'Brian Kremer'
     }
-    Test 4 has pass: true
+    Test 4 -> % of speaker labels that match shared meetings: 100%
     ```
 
 ### Performance Metrics
